@@ -1,1 +1,4 @@
-
+workflows:
+  my-workflow:
+    jobs:
+      - node-version-example
