@@ -1,1 +1,4 @@
-
+jobs:
+  node-version-example:
+    steps:
+      - run: node --version
