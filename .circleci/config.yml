@@ -13,6 +13,6 @@ jobs:
       - run:
           command: |
             cd .circleci
-            cat header.yml executors.yml jobs.yml workflows.yml > pipeline.yml
+            cat header.yml orbs.yml jobs.yml workflows.yml > pipeline.yml
       - continuation/continue:
           configuration_path: .circleci/pipeline.yml
