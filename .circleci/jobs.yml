@@ -1,5 +1,6 @@
 jobs:
   node-version-example:
+    executor: node/default
     steps:
       - run:
           command: node --version
