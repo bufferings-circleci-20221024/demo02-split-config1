@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           command: |
-            cd .circleci
+            cd myconfig
             cat header.yml orbs.yml jobs.yml workflows.yml > pipeline.yml
       - continuation/continue:
-          configuration_path: .circleci/pipeline.yml
+          configuration_path: myconfig/pipeline.yml
